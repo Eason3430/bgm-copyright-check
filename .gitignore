@@ -1,0 +1,7 @@
+# 真实密钥（含你的 API key），切勿提交或发布
+config.json
+
+# 临时测试产物
+_probe/
+__pycache__/
+*.pyc
