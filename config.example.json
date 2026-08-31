@@ -1,0 +1,4 @@
+{
+  "acoustid_api_key": "在此填入你的 AcoustID APPLICATION key（https://acoustid.org/new-application 注册应用后获取；注意不是 /api-key 页面的 user key，后者不能用于查重）",
+  "audiotag_api_key": "在此填入你的 AudioTag key（https://user.audiotag.info 注册后获取，需处于 active 状态）"
+}
