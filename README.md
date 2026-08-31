@@ -160,6 +160,8 @@ bash "$HOME/.workbuddy/skills/comfyui-acestep-audio/scripts/generate_and_check.s
 
 `--backends acoustid|audiotag` 可强制单平台；`--report` 写 Markdown 报告。
 
+📋 想看三种判定（🟢 干净 / 🟡 疑似 / 🔴 命中）与常见出错的实际输出长什么样？见 [docs/sample-report.md](docs/sample-report.md)。
+
 ---
 
 ## 常见问题（踩坑记录）
