@@ -6,6 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform: Windows](https://img.shields.io/badge/platform-Windows%20(x64)-blue.svg)](bin/)
 
+📖 **完整图文教程（从安装到生成即查重）**：[docs/tutorial.md](docs/tutorial.md)
+
 ---
 
 ## 它解决什么问题
