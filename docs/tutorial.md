@@ -115,7 +115,13 @@ python check_bgm.py "E:/bgm/ep01.mp3" --report "E:/bgm/ep01_查重报告.md"
 
 完整输出样例（含出错情形）见 [docs/sample-report.md](docs/sample-report.md)。
 
-*（建议配图：命令行跑查重，显示 🟢 干净 的结果）*
+实际运行效果（真实 BGM 查重，双平台均干净）：
+
+![命令行查重输出](images/terminal.png)
+
+批量查重后生成的 Markdown 报告：
+
+![查重报告效果](images/report.png)
 
 > 失败预警：AudioTag 报 `could not process the file` 通常是音频**太短**（需 ≥10 秒）。
 > 用 12 秒以上片段即可；BGM 一般几十秒不受影响。
