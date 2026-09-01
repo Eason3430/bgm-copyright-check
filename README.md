@@ -6,6 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform: Windows](https://img.shields.io/badge/platform-Windows%20(x64)-blue.svg)](bin/)
 
+![bgm-copyright-check](docs/images/cover.png)
+
 📖 **完整图文教程（从安装到生成即查重）**：[docs/tutorial.md](docs/tutorial.md)
 
 ---
@@ -159,6 +161,14 @@ bash "$HOME/.workbuddy/skills/comfyui-acestep-audio/scripts/generate_and_check.s
 明细分别列出 AcoustID（曲名/艺术家/id/score）与 AudioTag（曲名/艺术家/专辑/年份/confidence）。
 
 `--backends acoustid|audiotag` 可强制单平台；`--report` 写 Markdown 报告。
+
+实际运行效果：
+
+![命令行查重输出](docs/images/terminal.png)
+
+批量查重后生成的 Markdown 报告：
+
+![查重报告效果](docs/images/report.png)
 
 📋 想看三种判定（🟢 干净 / 🟡 疑似 / 🔴 命中）与常见出错的实际输出长什么样？见 [docs/sample-report.md](docs/sample-report.md)。
 
